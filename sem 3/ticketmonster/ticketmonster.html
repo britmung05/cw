@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticketmonster</title>
+    <link rel="icon" href="faviticket.jpg" type="image/x-icon">
+</head>
+<body>
+    <h1 align="center">TICKETMONSTER</h1>
+    <P align="center"> Bienvenido a Ticketmonster, no te pierdas los conciertos de tus artistas favoritos y adquiere
+        tus boletos. 
+        <br>
+    </P>
+    <form action="./casaphp/boletos.php" method="post">
+        <fieldset>
+            <legend>Adquirir boletos</legend>
+             <label for="Artistas">Artista</label>
+             <select id="Artistas">
+                <optgroup label="Mayo">
+                    <option value="Ariana Grande">Ariana Grande</option>
+                    <option value="Juan Gabriel">Juan Gabriel</option>
+                    <option value="The score">The score</option>
+                </optgroup>
+                <optgroup label="Junio">
+                    <option value="Cuarteto de nos">Cuarteto de nos</option>
+                    <option value="The rasmus">The rasmus</option>
+                    <option value="The weekend">The weekend</option>
+                    <option value="Coldplay">Coldplay</option>
+                </optgroup>
+                
+
+             </select>
+             <br>
+             <br>
+             <label>Fecha:</label>
+             <input type="date"/> 
+             <br>
+             <br>
+                ¿En que zona te gustaría estar?<br>
+                <input type="radio" name="pelo" value="General A"> General A <BR>
+                <input type="radio" name="pelo" value="General B"> General B <BR>
+                <input type="radio" name="pelo" value="General C"> General C <BR>
+                <input type="radio" name="pelo" value="Gradas A"> Gradas A <BR>
+                <input type="radio" name="pelo" value="Gradas B"> Gradas B <BR>
+                <input type="radio" name="pelo" value="Gradas C"> Gradas C <BR>
+              </p>
+              <p>
+                <label for="Cantidad de boletos">Cantidad de boletos <br> Recuerda que solo se permite un máximo de 10 boletos por persona.</label>
+             <br>
+             <br>
+                <select id="Cantidad de boletos">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+             </select>
+             <br>
+             <br>
+                ¿Te gustaría añadir algo extra?<br>
+                <input type="checkbox" name="perso" value="Combo de comida"> Combo de comida  <br>
+                <input type="checkbox" name="perso" value="Pulsera brillante"> Pulsera brillante  <br>
+                <input type="checkbox" name="perso" value="Combo botanero"> Combo botanero  <br>
+                <input type="checkbox" name="perso" value="Impresión de boletos en casa"> Impresión de boletos en casa  <br>
+                <input type="checkbox" name="perso" value="Pase Sin filas"> Pase Sin filas  <br>
+                <input type="checkbox" name="perso" value="Combo de bebidas"> Combo de bebidas  <br>
+              </p>
+              <br>
+            <p><strong>Datos para realizar la compra</strong></p>
+            <br>
+              <label>Nombre (s):</label>
+              <input type="text"/> <br> <br>
+              <label>Apellidos:</label>
+              <input type="text"/>
+              <input type="text"/> <br> <br>
+              <label>Teléfono</label>
+              <input type="tel"/> <br> <br>
+              <label>Correo:</label>
+              <input type="email"/> <br> <br>
+              <label>Número de tarjeta bancaria</label>
+              <input type="tel"/> <br> <br>
+              <label>Fecha de expiración</label>
+              <input type="tel"/> <br> <br>
+              <label>CVV</label>
+              <input type="tel"/> <br> <br>
+              <br>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </fieldset>
+    
+</body>
+</html>
