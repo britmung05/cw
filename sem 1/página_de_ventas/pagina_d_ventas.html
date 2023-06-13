@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <body background="fondo.png"></body>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perrhijos</title>
+    <link rel="icon" href="favicon.jpg" type="image/x-icon">
+</head>
+<body>
+    <h1 align="center">PERRHIJOS</h1>
+    <P align="center">     ¿Estás buscando compañía? o tal vez ¿compañía para tu mejor amigo peludo? ¡Estas en el lugar correcto!
+        <br>En perrhijos nos encargamos de crear un mejor amigo peludo que se adapte a ti y tus posibilidades.
+        <br>
+    </P>
+    <table border="2" style="border-collapse: collapse;"cellpadding="50px">
+        <thead>
+            <tr>
+                <th>Ejemplar 1</th>
+                <th>Ejemplar 2</th>
+                <th>Ejemplar 3</th>
+                <th>Ejemplar 4</th>
+            
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th><img src="./ej.1.jpg" alt="p.1"width="180" height="200"></th>
+                <th><img src="./ej.2.jpg" alt="p.2"width="200" height="200"></th>
+                <th><img src="./ej.3.jpg" alt="p.3"width="180" height="200"></th>
+                <th><img src="./ej.4.jpg" alt="p.4"width="200" height="200"></th>
+            </tr>
+            <tr>
+                <th>Ejemplar 5</th>
+                <th>Ejemplar 6</th>
+                <th>Ejemplar 7</th>
+                <th>Ejemplar 8</th>
+            </tr>
+            <tr>
+                <th><img src="./ej.5.jpg" alt="p.5"width="200" height="200"></th>
+                <th><img src="./ej.6.jpg" alt="p.6"width="200" height="200"></th>
+                <th><img src="./ej.7.jpg" alt="p.7"width="200" height="200"></th>
+                <th><img src="./ej.8.jpg" alt="p.8"width="200" height="200"></th>
+            </tr>
+        </tbody>
+    </table>
+
+    <form>
+        <fieldset>
+            <legend>Datos de entrega</legend>
+            <label>Nombre (s):</label>
+            <input type="text"/>
+            <label>Apellidos:</label>
+            <input type="text"/>
+            <input type="text"/>
+            <label>Teléfono</label>
+            <input type="tel"/>
+            <label>Correo:</label>
+            <input type="email"/>
+            <br>
+            <br>
+            <br><textarea cols="60" rows="2" minlength="20">Dirección completa a donde enviaremos a tu nuevo integrante</textarea>
+        </fieldset>
+        <button type="submit">Enviar</button>
+        <button type="reset">Borrar</button>
+    </form>
+    <form>
+        <fieldset>
+            <legend>Características de tu perrhijo</legend>
+            <p>
+                Tamaños disponibles:<br>
+                <input type="radio" name="tamaño" value="Grande"> grande
+                <input type="radio" name="tamaño" value="mediano"> mediano
+                <input type="radio" name="tamaño" value="mini"> mini
+              </p>
+             <label for="Colores">Colores disponibles</label>
+             <select id="Colores">
+                <optgroup label="sólido">
+                    <option value="negro">negro</option>
+                    <option value="negro">café</option>
+                    <option value="negro">blanco</option>
+                </optgroup>
+                <optgroup label="Mixto">
+                    <option value="b&n">blanco y negro</option>
+                    <option value="b&c">blanco y café</option>
+                </optgroup>
+                
+
+             </select>
+             <br>
+             <br>
+                Largos de pelaje disponibles:<br>
+                <input type="radio" name="pelo" value="Largo"> largo
+                <input type="radio" name="pelo" value="Corto"> corto
+                <input type="radio" name="pelo" value="Calvo"> calvo
+                <input type="radio" name="pelo" value="Medio"> Medio
+              </p>
+              <p>
+                Personalidad:<br>
+                <input type="checkbox" name="perso" value="Juguetón"> Juguetón
+                <input type="checkbox" name="perso" value="Dormilón"> Dormilón
+                <input type="checkbox" name="perso" value="Comelón"> Comelón
+                <input type="checkbox" name="perso" value="Hiperactivo"> Hiperactivo
+                <input type="checkbox" name="perso" value="Amigable"> Amigable
+                <input type="checkbox" name="perso" value="Gruñón"> Gruñón
+              </p>
+            <button type="submit">Enviar</button>
+            <button type="reset">Borrar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
